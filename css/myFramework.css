@@ -1,0 +1,115 @@
+/* =================================
+   Start My Framework
+================================= */
+
+/* ------------ 01. Layout ------------*/
+
+.mf-container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* ------------ 02. Utilities ------------*/
+
+.mf-text-center {
+  text-align: center;
+}
+
+.mf-flow-root {
+  display: flow-root;
+}
+
+/* ------------ 03. Typography ------------*/
+
+.mf-heading-1 {
+  font-size: 2rem;
+}
+
+.mf-responsive-paragraph {
+  line-height: 1.6;
+  text-align: center;
+  font-size: 23px;
+}
+.mf-header-50prjs {
+  position: relative;
+  background-color: white;
+  top: -30px;
+}
+.mf-header-50prjs h1 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 800;
+  font-family: system-ui;
+  background-color: white;
+  padding: 35px 0;
+}
+/* ------------ 04. Components ------------*/
+
+/* ------------ 05. Responsive ------------*/
+
+/* Extra Small */
+@media (max-width: 487px) {
+  .mf-hidden-xs {
+    display: none;
+  }
+
+  .mf-responsive-paragraph {
+    line-height: 1.5;
+    font-size: 19px;
+    font-weight: 500;
+  }
+}
+
+/* Small */
+@media (min-width: 488px) and (max-width: 767px) {
+  .mf-container {
+    max-width: 540px;
+  }
+
+  .mf-hidden-sm {
+    display: none;
+  }
+}
+
+/* Medium */
+@media (min-width: 768px) and (max-width: 991px) {
+  .mf-container {
+    max-width: 750px;
+  }
+
+  .mf-hidden-md {
+    display: none;
+  }
+}
+
+/* Large */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .mf-container {
+    max-width: 970px;
+  }
+
+  .mf-hidden-lg {
+    display: none;
+  }
+}
+
+/* Extra Large */
+@media (min-width: 1200px) {
+  .mf-container {
+    max-width: 1170px;
+  }
+
+  .mf-hidden-xl {
+    display: none;
+  }
+
+  .mf-responsive-paragraph {
+    line-height: 1.7;
+    font-size: 27px;
+  }
+}
+
+/* =================================
+   End My Framework
+================================= */
